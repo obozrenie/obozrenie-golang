@@ -1,0 +1,326 @@
+[rigsofrods]
+name = "Rigs of Rods"
+proxy = "net_http"
+adapter = "rigsofrods"
+launch_pattern = "rigsofrods"
+settings = ["path", "master_uri"]
+[rigsofrods.proxy]
+protocol-version = "RoRnet_2.37"
+master-uri = "http://api.rigsofrods.com/serverlist/"
+
+[minetest]
+name = "Minetest"
+proxy = "net_http"
+adapter = "minetest"
+launch_pattern = "minetest"
+settings = ["path", "master_uri", "nickname"]
+
+[csgo]
+name = "Counter-Strike: Global Offensive"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "730"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[csgo.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "csgo"
+
+[cstrike]
+name = "Counter-Strike: Source"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "240"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[cstrike.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "cstrike"
+
+[dod]
+name = "Day of Defeat: Source"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "300"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[dod.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "dod"
+
+[garrysmod]
+name = "Garry's Mod"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "400"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[garrysmod.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "garrysmod"
+
+[gesource]
+name = "GoldenEye: Source"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+settings = ["path", "master_uri"]
+[gesource.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "gesource"
+
+[hl1mp]
+name = "Half-Life Deathmatch: Source"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "360"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[hl1mp.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "hl1mp"
+
+[hl2mp]
+name = "Half-Life 2: Deathmatch"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "320"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[hl2mp.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "hl2mp"
+
+[left4dead2]
+name = "Left 4 Dead 2"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "550"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[left4dead2.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "left4dead2"
+
+[portal2]
+name = "Portal 2"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "620"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[portal2.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "portal2"
+
+[tf]
+name = "Team Fortress 2"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "hl2"
+steam_app_id = "440"
+settings = ["path", "workdir", "master_uri", "steam_launch", "steam_path"]
+[tf2.proxy]
+master_type = "STM"
+server_type = "A2S"
+server_gametype = "tf"
+
+[alienarena]
+name = "Alien Arena"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[alienarena.proxy]
+master_type = "ALIENARENAM"
+server_type = "ALIENARENAS"
+
+[doom3]
+name = "Doom 3"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[doom3.proxy]
+master_type = "DM3M"
+server_type = "DM3S"
+
+[jediacademy]
+name = "Star Wars Jedi Knight II: Jedi Academy"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[jediacademy.proxy]
+master_type = "JK3M"
+server_type = "JK3S"
+
+[jedioutcast]
+name = "Star Wars Jedi Knight II: Jedi Outcast"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+
+[jedioutcast.proxy]
+master_type = "JK2M"
+server_type = "JK2S"
+
+[q2]
+name = "Quake II"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[q2.proxy]
+master_type = "Q2M"
+server_type = "Q2S"
+
+[q3a]
+name = "Quake III Arena"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[q3a.proxy]
+master_type = "Q3M"
+server_type = "Q3S"
+
+[q4]
+name = "Quake 4"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[q4.proxy]
+master_type = "Q4M"
+server_type = "Q4S"
+
+[qw]
+name = "QuakeWorld"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[qw.proxy]
+master_type = "QWM"
+server_type = "QWS"
+
+[rtcw]
+name = "Return to Castle Wolfenstein"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[rtcw.proxy]
+master_type = "RWM"
+server_type = "RWS"
+
+[et]
+name = "Wolfenstein: Enemy Territory"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[et.proxy]
+master_type = "WOETM"
+server_type = "WOETS"
+
+[openarena]
+name = "OpenArena"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[openarena.proxy]
+master_type = "OPENARENAM"
+server_type = "OPENARENAS"
+
+[openttd]
+name = "OpenTTD"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "openttd"
+settings = ["path", "master_uri"]
+[openttd.proxy]
+master_type = "OTTDM"
+server_type = "OTTDS"
+
+[stef1]
+name = "Star Trek: Voyager - Elite Force"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[stef1.proxy]
+master_type = "EFM"
+server_type = "EFS"
+
+[turtlearena]
+name = "Turtle Arena"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[turtlearena.proxy]
+master_type = "TURTLEARENAM"
+server_type = "TURTLEARENAS"
+
+[unvanquished]
+name = "Unvanquished"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[unvanquished.proxy]
+master_type = "UNVANQUISHEDM"
+server_type = "UNVANQUISHEDS"
+
+[urbanterror]
+name = "Urban Terror"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[urbanterror.proxy]
+master_type = "IOURTM"
+server_type = "IOURTS"
+
+[warsow]
+name = "Warsow"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[warsow.proxy]
+master_type = "WARSOWM"
+server_type = "WARSOWS"
+
+[wop]
+name = "World of Padman"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[wop.proxy]
+master_type = "WOPM"
+server_type = "WOPS"
+
+[xonotic]
+name = "Xonotic"
+proxy = "qstat_output"
+adapter = "qstat_xml"
+launch_pattern = "quake"
+settings = ["path", "workdir", "master_uri"]
+[xonotic.proxy]
+master_type = "XONOTICM"
+server_type = "XONOTICS"
